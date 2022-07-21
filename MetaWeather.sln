@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaWeather", "MetaWeather\MetaWeather.csproj", "{4209764C-A1C0-468D-A584-BE34C3FFD9FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2799309-9F3F-46FB-87C7-F8A02AEB9ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaWeather.TestConsole", "Tests\MetaWeather.TestConsole\MetaWeather.TestConsole.csproj", "{5D35CFE9-4170-4E33-AD64-12C4A525DC18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4209764C-A1C0-468D-A584-BE34C3FFD9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4209764C-A1C0-468D-A584-BE34C3FFD9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4209764C-A1C0-468D-A584-BE34C3FFD9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4209764C-A1C0-468D-A584-BE34C3FFD9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D35CFE9-4170-4E33-AD64-12C4A525DC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D35CFE9-4170-4E33-AD64-12C4A525DC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D35CFE9-4170-4E33-AD64-12C4A525DC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D35CFE9-4170-4E33-AD64-12C4A525DC18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D35CFE9-4170-4E33-AD64-12C4A525DC18} = {A2799309-9F3F-46FB-87C7-F8A02AEB9ACA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F93022E9-9BA1-4E43-A4F7-83F5EDDF1395}
+	EndGlobalSection
+EndGlobal
